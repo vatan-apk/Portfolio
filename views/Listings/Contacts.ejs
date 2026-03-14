@@ -1,0 +1,81 @@
+<% layout("layouts/boilerplate") %>
+
+<div class="container mt-5">
+
+<h1 class="text-center">Contact Me</h1>
+
+<p class="text-center mt-3">
+Feel free to contact me for opportunities, collaborations, or any queries.
+</p>
+
+<div class="row mt-5 justify-content-center">
+
+<div class="col-md-6">
+
+<form class="needs-validation" novalidate method="POST" action="/contact">
+
+<div class="mb-3">
+<label class="form-label">Name</label>
+<input type="text" class="form-control" name="name" placeholder="Enter your name" required>
+
+<div class="invalid-feedback">
+Please enter your name
+</div>
+</div>
+
+<div class="mb-3">
+<label class="form-label">Email</label>
+<input type="email" class="form-control" name="email" placeholder="Enter your email" required>
+
+<div class="invalid-feedback">
+Please enter a valid email
+</div>
+</div>
+
+<div class="mb-3">
+<label class="form-label">Message</label>
+
+<textarea class="form-control" name="message" rows="4" placeholder="Write your message" required></textarea>
+
+<div class="invalid-feedback">
+Please write a message
+</div>
+</div>
+
+<button type="submit" class="btn btn-warning">
+Send Message
+</button>
+
+</form>
+
+<hr class="mt-5">
+
+<h4>Contact Information</h4>
+
+<p><b>Email:</b> 
+<a href="mailto:vatankumarpathak9394@gmail.com">
+vatankumarpathak9394@gmail.com
+</a>
+</p>
+
+<p>
+<b>LinkedIn:</b> 
+<a href="https://www.linkedin.com/in/vatan-kumar-pathak-931042382" target="_blank">
+View My LinkedIn Profile
+</a>
+</p>
+
+<p>
+<b>GitHub:</b> 
+<a href="https://github.com/vatan-apk" target="_blank">
+View My GitHub
+</a>
+</p>
+
+</div>
+
+</div>
+
+</div>
+<script src="/js/timeout.js"></script>
+<script src="/js/validation.js"></script>
