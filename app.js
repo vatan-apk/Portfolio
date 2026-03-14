@@ -36,7 +36,7 @@ app.get("/project",(req,res)=>{
 });
 
 app.get("/contact",(req,res)=>{
-    res.render("Listings/contacts");
+    res.render("Listings/Contacts");
 });
 
 
