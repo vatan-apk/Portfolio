@@ -52,8 +52,8 @@ app.post("/contact", async(req,res)=>{
         console.log("Saved Data:", userData);
         res.redirect("/?success=true");
     }catch(err){
-        console.log(err);
-        res.redirect("/contact");
+        console.log("Error:",err);
+        res.redirect(err.message);
     }
 });
 
